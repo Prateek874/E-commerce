@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="product-list.css">
+</head>
+<body>
+    <div class="product-list">
+        <div class="product">
+            <img src="c-d-x-PDX_a_82obo-unsplash.jpg" alt="Product 1">
+            <h3>Headphone</h3>
+        </div>
+        <div class="product">
+            <img src="rachit-tank-2cFZ_FB08UM-unsplash.jpg " alt="Product 2">
+            <h3>Samsung watch</h3>
+        </div>
+        <div class="product">
+            <img src="domino-164_6wVEHfI-unsplash.jpg" alt="Product 3">
+            <h3>Nike shoe</h3>
+        </div>
+    </div>
+    <div class="product-list">
+        <div class="product">
+            <img src="eniko-kis-KsLPTsYaqIQ-unsplash.jpg" alt="Product 1">
+            <h3>Camera</h3>
+        </div>
+        <div class="product">
+            <img src="giorgio-trovato-K62u25Jk6vo-unsplash.jpg" alt="Product 2">
+            <h3>Sunglass</h3>
+        </div>
+        <div class="product">
+            <img src="kelly-sikkema-xp-ND7NjWaA-unsplash.jpg" alt="Product 3">
+            <h3>Sanitizer</h3>
+        </div>
+    </div>
+    <div class="product-list">
+        <div class="product">
+            <img src="kiran-ck-LSNJ-pltdu8-unsplash.jpg" alt="Product 1">
+            <h3>Sony Headphone </h3>
+        </div>
+        <div class="product">
+            <img src="daniel-korpai-hbTKIbuMmBI-unsplash.jpg"  alt="Product 2">
+            <h3>Apple watch</h3>
+        </div>
+        <div class="product">
+            <img src="ruslan-bardash-4kTbAMRAHtQ-unsplash.jpg" alt="Product 3">
+            <h3> Table </h3>
+        </div>
+    </div>
+</body>
+</html>

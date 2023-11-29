@@ -1,0 +1,18 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 30%; /* Each product takes up 30% of the container width */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+/* You can add more styles as needed for the product cards */

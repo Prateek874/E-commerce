@@ -1,0 +1,102 @@
+/* Cart Container */
+.cart-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  /* Product List */
+  .product-list1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted minmax size */
+    gap: 15px; /* Reduced gap */
+  }
+  
+  /* Individual Product */
+  .product1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px; /* Reduced padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .product-details {
+    margin-top: 8px; /* Reduced margin */
+  }
+  
+  .product h3 {
+    font-size: 16px; /* Reduced font size */
+    margin-bottom: 8px; /* Reduced margin */
+  }
+  
+  .product p {
+    font-size: 12px; /* Reduced font size */
+    color: #555;
+  }
+  
+  .product-price {
+    font-size: 14px; /* Reduced font size */
+    color: #007BFF;
+    margin-top: 8px; /* Reduced margin */
+  }
+  
+  /* Quantity Controls */
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 8px; /* Reduced margin */
+  }
+  
+  .quantity-controls button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 6px 10px; /* Reduced padding */
+    cursor: pointer;
+    margin: 0 3px; /* Reduced margin */
+  }
+  
+  .quantity-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Remove Button */
+  .remove-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 6px 10px; /* Reduced padding */
+    cursor: pointer;
+    margin-top: 8px; /* Reduced margin */
+  }
+  
+  .remove-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Checkout Section */
+  .checkout-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px; /* Increased margin */
+  }
+  
+  .checkout-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 16px; /* Reduced padding */
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #218838;
+  }
+  
